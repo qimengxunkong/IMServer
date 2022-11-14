@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8560d0b5-88d6-4022-b6db-c32cbc75f6ba}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>MyIMServer</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>/home/nowcoder/projects/MyIMServer/third/include;/home/nowcoder/projects/MyIMServer/common</IncludePath>
+    <LibraryPath>/home/nowcoder/projects/MyIMServer/third/lib/iniparser;/home/nowcoder/projects/MyIMServer/third/lib/log4cpp;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="BussinessProcessor.cpp" />
+    <ClCompile Include="common\iniconfig.cpp" />
+    <ClCompile Include="common\logger.cpp" />
+    <ClCompile Include="DispathMsgService.cpp" />
+    <ClCompile Include="events_def.cpp" />
+    <ClCompile Include="iEvent.cpp" />
+    <ClCompile Include="iEventHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NetworkInterface.cpp" />
+    <ClCompile Include="protocol.pb.cc" />
+    <ClCompile Include="sqlconnection.cpp" />
+    <ClCompile Include="sqltables.cpp" />
+    <ClCompile Include="threadpool\thread_cond.cpp" />
+    <ClCompile Include="threadpool\thread_mutex.cpp" />
+    <ClCompile Include="threadpool\thread_pool.cpp" />
+    <ClCompile Include="UserEventHandler.cpp" />
+    <ClCompile Include="userservice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BussinessProcessor.h" />
+    <ClInclude Include="common\iniconfig.h" />
+    <ClInclude Include="common\iniconfigdef.h" />
+    <ClInclude Include="common\logger.h" />
+    <ClInclude Include="DispathMsgService.h" />
+    <ClInclude Include="events_def.h" />
+    <ClInclude Include="EventType.h" />
+    <ClInclude Include="glob_def.h" />
+    <ClInclude Include="iEvent.h" />
+    <ClInclude Include="iEventHandler.h" />
+    <ClInclude Include="NetworkInterface.h" />
+    <ClInclude Include="protocol.pb.h" />
+    <ClInclude Include="sqlconnection.h" />
+    <ClInclude Include="sqltables.h" />
+    <ClInclude Include="threadpool\thread.h" />
+    <ClInclude Include="threadpool\thread_pool.h" />
+    <ClInclude Include="UserEventHandler.h" />
+    <ClInclude Include="userservice.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <LibraryDependencies>protobuf;pthread;event;iniparser;log4cpp;mysqlclient;%(LibraryDependencies)</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>/home/nowcoder/projects/MyIMServer/third/lib/log4cpp/liblog4cpp.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

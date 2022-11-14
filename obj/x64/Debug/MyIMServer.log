@@ -1,0 +1,150 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.63.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  BussinessProcessor.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :   i32 GetRowCount()const { return _pRes->row_count; };
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :                                   ~~~~~~~^~~~~~~~~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :   virtual i32 ByteSize() { return _lr.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :                                   ~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :   virtual i32 ByteSize() { return _lrsp.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :                                   ~~~~~~~~~~~~~~~~~~^~
+  iniconfig.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\common\iniconfig.cpp(31,108): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\common\iniconfig.cpp(31,108): warning : conversion to ‘short int’ from ‘int’ may alter its value [-Wconversion]
+  logger.cpp
+  DispathMsgService.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :   virtual i32 ByteSize() { return _lr.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :                                   ~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :   virtual i32 ByteSize() { return _lrsp.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :                                   ~~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\DispathMsgService.cpp(21,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\project\MyIMServer\MyIMServer\MyIMServer\DispathMsgService.cpp(21,1): warning :  }
+E:\project\MyIMServer\MyIMServer\MyIMServer\DispathMsgService.cpp(21,1): warning :  ^
+E:\project\MyIMServer\MyIMServer\MyIMServer\DispathMsgService.cpp(269,41): warning : conversion to ‘u16 {aka short unsigned int}’ from ‘u32 {aka unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\DispathMsgService.cpp(269,41): warning :   *(u16*)(cs->writebuff + 4) = ev->GetEId();
+E:\project\MyIMServer\MyIMServer\MyIMServer\DispathMsgService.cpp(269,41): warning :                                ~~~~~~~~~~^~
+  events_def.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :   virtual i32 ByteSize() { return _lr.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :                                   ~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :   virtual i32 ByteSize() { return _lrsp.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :                                   ~~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.cpp(22,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.cpp(22,1): warning :  }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.cpp(22,1): warning :  ^
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.cpp(28,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.cpp(28,1): warning :  }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.cpp(28,1): warning :  ^
+  iEvent.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\iEvent.cpp(15,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\project\MyIMServer\MyIMServer\MyIMServer\iEvent.cpp(15,1): warning :  }
+E:\project\MyIMServer\MyIMServer\MyIMServer\iEvent.cpp(15,1): warning :  ^
+  iEventHandler.cpp
+  main.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :   virtual i32 ByteSize() { return _lr.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :                                   ~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :   virtual i32 ByteSize() { return _lrsp.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :                                   ~~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :   i32 GetRowCount()const { return _pRes->row_count; };
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :                                   ~~~~~~~^~~~~~~~~
+E:\project\MyIMServer\MyIMServer\MyIMServer\main.cpp(36,19): warning : unused variable ‘pmcr’ [-Wunused-variable]
+E:\project\MyIMServer\MyIMServer\MyIMServer\main.cpp(36,19): warning :   MobileCodeReqEv* pmcr = new MobileCodeReqEv("18371405274");
+E:\project\MyIMServer\MyIMServer\MyIMServer\main.cpp(36,19): warning :                    ^~~~
+  NetworkInterface.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :   virtual i32 ByteSize() { return _lr.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :                                   ~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :   virtual i32 ByteSize() { return _lrsp.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :                                   ~~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(112,31): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(112,31): warning :      i32 len = bufferevent_read(cs->bev, cs->header + cs->read_header_len, MESSAGE_LEN - cs->read_header_len);
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(112,31): warning :                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(146,31): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(146,31): warning :      i32 len = bufferevent_read(cs->bev, cs->readbuff + cs->read_massege_len, cs->message_len - cs->read_massege_len);
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(146,31): warning :                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(203,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(203,27): warning :   sin.sin_port = htons(port);
+E:\project\MyIMServer\MyIMServer\MyIMServer\NetworkInterface.cpp(203,27): warning :                            ^
+  protocol.pb.cc
+  sqlconnection.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :   i32 GetRowCount()const { return _pRes->row_count; };
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :                                   ~~~~~~~^~~~~~~~~
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.cpp(82,33): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.cpp(82,33): warning :   return mysql_real_escape_string(_mysql,StrDes,StrSrc,SrcLen);
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.cpp(82,33): warning :          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  sqltables.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :   i32 GetRowCount()const { return _pRes->row_count; };
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :                                   ~~~~~~~^~~~~~~~~
+  thread_cond.cpp
+  thread_mutex.cpp
+  thread_pool.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\threadpool\thread_pool.cpp(187,25): warning : unused variable ‘err’ [-Wunused-variable]
+E:\project\MyIMServer\MyIMServer\MyIMServer\threadpool\thread_pool.cpp(187,25): warning :      int                 err;
+E:\project\MyIMServer\MyIMServer\MyIMServer\threadpool\thread_pool.cpp(187,25): warning :                          ^~~
+  UserEventHandler.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(17,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :     virtual i32 ByteSize() { return _msg.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(38,53): warning :                                     ~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :   virtual i32 ByteSize() { return _lr.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(59,50): warning :                                   ~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :   virtual i32 ByteSize() { return _lrsp.ByteSizeLong(); }
+E:\project\MyIMServer\MyIMServer\MyIMServer\events_def.h(84,52): warning :                                   ~~~~~~~~~~~~~~~~~~^~
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :   i32 GetRowCount()const { return _pRes->row_count; };
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :                                   ~~~~~~~^~~~~~~~~
+  userservice.cpp
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :   i32 GetRowCount()const { return _pRes->row_count; };
+E:\project\MyIMServer\MyIMServer\MyIMServer\sqlconnection.h(37,41): warning :                                   ~~~~~~~^~~~~~~~~
+  正在链接对象
+  MyIMServer.vcxproj -> E:\project\MyIMServer\MyIMServer\MyIMServer\bin\x64\Debug\MyIMServer.out
